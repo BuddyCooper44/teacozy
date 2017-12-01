@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+  height: 69px;
+  < !--position: fixed;-- >
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+span a {
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  margin-right: auto;
+}
