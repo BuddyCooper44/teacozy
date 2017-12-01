@@ -35,7 +35,6 @@ header img {
 .mission {
   display: flex;
   justify-content: center;
-  margin-top: 69px;
 }
 
 .mission-pic {
@@ -44,10 +43,51 @@ header img {
   height: 700px;
   display: flex;
   align-items: center;
+  margin-top: 62px;
 }
 
 .mission-copy {
   background-color: black;
   text-align: center;
   width: 1200px;
+}
+
+.featured-tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-heading {
+  text-align: center;
+  margin-top: 62px;
+}
+
+.tea-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.tea-pics img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-pics div {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+
+.picture h4 {
+  margin-top: 10px;
 }
