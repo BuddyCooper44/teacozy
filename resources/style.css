@@ -96,6 +96,7 @@ header img {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: 62px 0px 20px 0px;
 }
 
 .locations-copy {
@@ -111,10 +112,7 @@ header img {
   margin: 15px 20px;
   width: 300px;
   background-color: black;
-}
-
-.locbox span {
-  padding: 20px;
+  opacity: 1;
 }
 
 .locations-pic {
@@ -124,9 +122,21 @@ header img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 62px;
 }
 
 .locations-pic h2 {
   margin-bottom: 0px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 15px;
+}
+
+.copyright {
+  margin: 0px 20px;
 }
